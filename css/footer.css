@@ -1,0 +1,145 @@
+/* start footer section contact */
+.contact{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(231, 237, 234);
+    display: flex;
+}
+
+.box-email{
+    width: 50%;
+    height: inherit;
+    overflow: hidden;
+}
+
+.all-content{
+    width: 400px;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 140px;
+}
+
+.box-email i{
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.box-email label{
+    font-size: 17px;
+    color: darkgreen;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.box-email h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    margin-top: 7px;
+}
+
+.box-submit{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-submit .form{
+    width: 500px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-submit h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.form input{
+    display: block;
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    background-color: rgb(239, 234, 234);
+    border: hidden;
+}
+
+.form textarea{
+     margin-top: 20px;
+     letter-spacing: 2px;
+     padding-left: 10px;
+     padding-top: 10px;
+     background-color: rgb(239, 234, 234);
+     border: hidden;
+}
+
+.form button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(19, 122, 19);
+    border: hidden;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.form button:hover{
+    background-color:rgb(75, 212, 75);
+    color: black;
+}
+/* end section contact */
+
+/* start footer */
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .txt-footer{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+}
+.footer i{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer i:hover{
+    color: green;
+}
+
+.footer h3{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.footer span{
+    color: green;
+}
+
+/* end footer */

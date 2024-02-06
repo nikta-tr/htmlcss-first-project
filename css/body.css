@@ -1,0 +1,362 @@
+/* start section one */
+.box-discription{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(190, 186, 186);
+    display: flex;
+}
+
+.box-discription div{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box-discription i{
+    font-size: 30px;
+    color: darkgreen;
+    transform: translateY(0px);
+}
+
+.box-discription h3{
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.box-discription p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 54px;
+    color: rgb(83, 81, 81);
+    font-family: sans-serif;
+}
+
+.box-discription div:hover{
+    background-color: #fff;
+    border-bottom: 5px solid darkgreen;
+}
+
+.box-discription div:hover i{
+    transition: all 400ms linear;
+    transform: translateY(-5px);
+}
+
+/* start section two */
+.box-about{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+.img-about{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about>div{
+    width: 450px;
+    height: 300px;
+    border: 10px solid darkgreen;
+    overflow: hidden;
+   
+}
+
+.img-about>div>img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.img-about>div:hover img{
+    transform: scale(1.1);
+    filter: opacity(0.5);
+    filter: opacity(0.7) drop-shadow(0 0 green);
+}
+
+
+.txt-about{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-about h3{
+    color: darkgreen;
+    font-family: 'Acme';
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.txt-about h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.txt-about p{
+    margin-top: 25px;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.txt-about button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(40, 127, 40);
+    letter-spacing: 5px;
+    border: hidden;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.txt-about button:hover{
+    background-color: rgb(99, 177, 113);
+    color: rgb(29, 63, 30);
+}
+
+/* start section three */
+.box-check{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.txt-check{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.txt-check h3{
+    color: darkgreen;
+    font-family: 'Acme';
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.txt-check h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.txt-check p{
+    margin-top: 25px;
+    font-size: 13px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.txt-check button{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(34, 224, 34);
+    letter-spacing: 1px;
+    border: hidden;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.txt-check button:hover{
+    background-color: rgb(146, 207, 146);
+    color: white;
+}
+
+.img-check{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.img-check>div{
+    width: 250px;
+    height: 340px;
+}
+
+.img-check>div>div:nth-of-type(1){
+    width: 100%;
+    height: 80%;
+}
+
+.img-check>div>div:nth-of-type(2){
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.img-check>div>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+}
+
+.img-check>div>div>h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
+.img-check>div>div>h3:nth-of-type(1){
+    margin-top: 15px;
+}
+
+.img-check>div>div>h3:nth-of-type(2){
+    color:darkgreen;
+    margin-top: 5px;
+}
+
+/* start section four */
+.box-explore{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.txt-explore{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.txt-explore h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(20, 183, 20);
+    font-family: 'Acme';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.txt-explore h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgb(13, 13, 13);
+    font-family: 'Acme';
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.three-box{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.three-box>div{
+    width: 320px;
+    height: 460px;
+    box-shadow: 0px 0px 10px rgb(201, 198, 198);
+    margin-top: -70px;
+}
+
+.three-box>div:hover{
+    transform: scale(1.05);
+    transition: all 300ms linear;
+}
+
+.three-box .img-explore{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.three-box .img-explore>img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-explore .circle{
+    width: 20%;
+    height: 25%;
+    background-color: rgb(228, 238, 237);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i{
+    font-size: 30px;
+    background-color: rgb(143, 230, 97);
+    border-radius: 50%;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.three-box .content-explore{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(228, 238, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-explore h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.content-explore p{
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.content-explore button{
+    width: 100px;
+    height: 30px;
+    background-color: darkgreen;
+    border: hidden;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
